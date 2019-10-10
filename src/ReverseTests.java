@@ -27,8 +27,8 @@ public class ReverseTests {
         int[] c = {1, 3, 1, 3, 1, 3};
 
         assertArrayEquals("Failure on even length array: " + Arrays.toString(a), new int[] {2, 1}, Methods.reverse(a));
-        assertArrayEquals("Failure on even length array: " + Arrays.toString(b), new int[] {8, 6, 4, 2}, Methods.reverse(a));
-        assertArrayEquals("Failure on even length array: " + Arrays.toString(c), new int[] {3, 1, 3, 1, 3, 1}, Methods.reverse(a));
+        assertArrayEquals("Failure on even length array: " + Arrays.toString(b), new int[] {8, 6, 4, 2}, Methods.reverse(b));
+        assertArrayEquals("Failure on even length array: " + Arrays.toString(c), new int[] {3, 1, 3, 1, 3, 1}, Methods.reverse(c));
 
     }
 
@@ -39,8 +39,8 @@ public class ReverseTests {
         int[] c = {8, 6, 7, 5, 3, 0, 9};
 
         assertArrayEquals("Failure on odd length array: " + Arrays.toString(a), new int[] {2, 3, 1}, Methods.reverse(a));
-        assertArrayEquals("Failure on odd length array: " + Arrays.toString(b), new int[] {3, 2, 3, 2, 1}, Methods.reverse(a));
-        assertArrayEquals("Failure on odd length array: " + Arrays.toString(c), new int[] {9, 0, 3, 5, 7, 6, 8}, Methods.reverse(a));
+        assertArrayEquals("Failure on odd length array: " + Arrays.toString(b), new int[] {3, 2, 3, 2, 1}, Methods.reverse(b));
+        assertArrayEquals("Failure on odd length array: " + Arrays.toString(c), new int[] {9, 0, 3, 5, 7, 6, 8}, Methods.reverse(c));
 
     }
 }
